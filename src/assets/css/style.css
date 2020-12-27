@@ -1,0 +1,139 @@
+@font-face {
+    font-family: 'marmelatblack';
+    src: url('../fonts/marmelat_black-webfont.woff2') format('woff2'),
+         url('../fonts/marmelat_black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'marmelatbold';
+    src: url('../fonts/marmelat_bold-webfont.woff2') format('woff2'),
+         url('../fonts/marmelat_bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'marmelatbook';
+    src: url('../fonts/marmelat_book-webfont.woff2') format('woff2'),
+         url('../fonts/marmelat_book-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'marmelatmedium';
+    src: url('../fonts/marmelat_medium-webfont.woff2') format('woff2'),
+         url('../fonts/marmelat_medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+html {
+    background-color: #151515;
+    color: white;
+    font-family: marmelatblack, Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif;
+
+}
+.nav-drawer div:first-of-type{
+    background-color: #151515;
+    color: white;
+}
+.nav-title span {
+    font-weight: 700;
+    font-size: 1.6rem;
+}
+.nav-subtitle span {
+    font-weight: 100;
+    font-size: 1rem;
+    font-family: marmelatmedium !important;
+}
+
+.MuiList-padding {
+    padding-top: 4rem !important;
+}
+.MuiTypography-body1 {
+    font-family: marmelatblack !important;
+}
+h1 {
+    font-size: 4rem;
+}
+
+.card-media {
+height: 240px;
+border-radius: 5% 5% 0 0 ;
+}
+.card-item {
+    max-width: 345px;
+    border-radius: 20%;
+    margin: 20px
+    
+
+}
+.MuiCardContent-root {
+    background-color: #202020;
+    color: white
+}
+
+.MuiPaper-root {
+    background-color: transparent !important;
+}
+
+.metacritic-good {
+    border: 1px solid #66cc33;
+    color: #66cc33;
+    margin-left: auto;
+
+
+    padding: 5px;
+}
+.metacritic-card {
+    display: flex;
+     justify-content: flex-end;
+}
+
+.metacritic-meh {
+    border: 1px solid orange;
+    color: orange;
+    margin-left: auto;
+    padding: 5px;
+}
+.metacritic-bad {
+    border: 1px solid red;
+    color: red;
+    margin-left: auto;
+    padding: 5px;
+}
+
+.metacritic-none {
+    border: 1px solid transparent;
+    color: transparent;
+    margin-left: auto;
+    padding: 5px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.game-info ~ .game-list {
+    display: none !important;
+}
+
+[title^='Select'] {
+    display: none
+}
