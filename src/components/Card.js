@@ -33,7 +33,7 @@ const CardComponent = props => {
    })
   }
     return (
-      <Link to={"/juego/"+slug} >
+      <Link to={"/game-discovery/juego/"+slug} >
         <Card className="card-item">
           <CardMedia
             className="card-media"

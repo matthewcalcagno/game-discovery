@@ -21,27 +21,27 @@ const DrawerComponent = () => {
         open={true}
         >
               <ListItem>
-                    <ListItemText className="nav-title">Yulopsa.io<br></br><hr></hr></ListItemText>
+                    <ListItemText className="nav-title">Game-Discovery<hr></hr></ListItemText>
                 </ListItem>
             <List>
                 <ListItem>
                     <ListItemText className="nav-title">Tendencias</ListItemText>
                 </ListItem>
                 <ListItem button>
-                <div ><img  style={{width: "30px", padding: "1px", marginRight: "10px"}} src={StarIcon} /> </div> <Link to="/"><ListItemText className="nav-subtitle">Descubrimiento</ListItemText></Link>
+                <div ><img  style={{width: "30px", padding: "1px", marginRight: "10px"}} src={StarIcon} /> </div> <Link to="/game-discovery/"><ListItemText className="nav-subtitle">Descubrimiento</ListItemText></Link>
                 </ListItem>
                 <ListItem button>
-                <div ><img  style={{width: "30px", padding: "1px", marginRight: "10px"}} src={CalendarIcon} /> </div>  <Link to="/nuevos-lanzamientos"> <ListItemText className="nav-subtitle">Próximos juegos</ListItemText> </Link> 
+                <div ><img  style={{width: "30px", padding: "1px", marginRight: "10px"}} src={CalendarIcon} /> </div>  <Link to="/game-discovery/nuevos-lanzamientos"> <ListItemText className="nav-subtitle">Próximos juegos</ListItemText> </Link> 
                 </ListItem>
  
                 <ListItem>
                     <ListItemText className="nav-title">Los mejores</ListItemText>
                 </ListItem>
                 <ListItem button>
-                <div ><img  style={{width: "30px", padding: "1px", marginRight: "10px"}} src={TrophyIcon} /> </div> <Link to="/mejores-juegos-del-ano">   <ListItemText className="nav-subtitle">Lo mejor del año</ListItemText></Link>
+                <div ><img  style={{width: "30px", padding: "1px", marginRight: "10px"}} src={TrophyIcon} /> </div> <Link to="/game-discovery/mejores-juegos-del-ano">   <ListItemText className="nav-subtitle">Lo mejor del año</ListItemText></Link>
                 </ListItem>
                 <ListItem button>
-                <div ><img  style={{width: "30px", padding: "1px", marginRight: "10px"}} src={BestYearIcon} /> </div>  <Link to="/mejores-juegos-del-ano-pasado"> <ListItemText className="nav-subtitle">Popular del año pasado</ListItemText> </Link>
+                <div ><img  style={{width: "30px", padding: "1px", marginRight: "10px"}} src={BestYearIcon} /> </div>  <Link to="/game-discovery/mejores-juegos-del-ano-pasado"> <ListItemText className="nav-subtitle">Popular del año pasado</ListItemText> </Link>
                 </ListItem>
                 <ListItem>
                     <ListItemText className="nav-title">Géneros de juego</ListItemText>
@@ -50,12 +50,12 @@ const DrawerComponent = () => {
                     <ListItemText className="nav-title">Plataformas</ListItemText>
                 </ListItem>
                 <ListItem button>
-                <div ><img  style={{width: "30px", padding: "1px", marginRight: "10px"}} src={PcIcon} /> </div> <Link to="/juegos-para-pc"><ListItemText className="nav-subtitle">PC</ListItemText></Link>
+                <div ><img  style={{width: "30px", padding: "1px", marginRight: "10px"}} src={PcIcon} /> </div> <Link to="/game-discovery/juegos-para-pc"><ListItemText className="nav-subtitle">PC</ListItemText></Link>
                 </ListItem>
                 <ListItem button>
-                <div ><img  style={{width: "30px", padding: "1px", marginRight: "10px"}} src={PsIcon} /> </div> <Link to="/juegos-para-playstation"> <ListItemText className="nav-subtitle">  Playstation  </ListItemText>   </Link>             </ListItem>
+                <div ><img  style={{width: "30px", padding: "1px", marginRight: "10px"}} src={PsIcon} /> </div> <Link to="/game-discovery/juegos-para-playstation"> <ListItemText className="nav-subtitle">  Playstation  </ListItemText>   </Link>             </ListItem>
                 <ListItem button>
-                <div ><img  style={{width: "30px", padding: "1px", marginRight: "10px"}} src={XboxIcon} /> </div> <Link to="/juegos-para-xbox"> <ListItemText className="nav-subtitle">  Xbox</ListItemText> </Link>
+                <div ><img  style={{width: "30px", padding: "1px", marginRight: "10px"}} src={XboxIcon} /> </div> <Link to="/game-discovery/juegos-para-xbox"> <ListItemText className="nav-subtitle">  Xbox</ListItemText> </Link>
                 </ListItem>
                 <ListItem button>
                 <div ><img  style={{width: "30px", padding: "1px", marginRight: "10px"}} src={SwitchIcon} /> </div> <ListItemText className="nav-subtitle">  Switch</ListItemText>
