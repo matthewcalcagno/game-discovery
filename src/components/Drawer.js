@@ -21,7 +21,7 @@ const DrawerComponent = () => {
         open={true}
         >
               <ListItem>
-                    <ListItemText className="nav-title">Game-Discovery<hr></hr></ListItemText>
+                    <ListItemText className="nav-title">Game Discovery<hr></hr></ListItemText>
                 </ListItem>
             <List>
                 <ListItem>
