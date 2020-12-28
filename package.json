@@ -1,5 +1,6 @@
 {
   "name": "web-game",
+  "homepage": "http://matthewcalcagno.github.io/game-discovery",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
