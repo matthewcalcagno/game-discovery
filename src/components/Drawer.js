@@ -43,8 +43,8 @@ const DrawerComponent = () => {
                 <ListItem button>
                 <div ><img  style={{width: "30px", padding: "1px", marginRight: "10px"}} src={BestYearIcon} /> </div>  <Link to="/game-discovery/mejores-juegos-del-ano-pasado"> <ListItemText className="nav-subtitle">Popular del año pasado</ListItemText> </Link>
                 </ListItem>
-                <ListItem>
-                    <ListItemText className="nav-title">Géneros de juego</ListItemText>
+                <ListItem button>
+                <div ><img  style={{width: "30px", padding: "1px", marginRight: "10px"}} src={BestYearIcon} /> </div>  <Link to="/game-discovery/generos/rpg"> <ListItemText className="nav-subtitle">Géneros</ListItemText> </Link>
                 </ListItem>
                 <ListItem>
                     <ListItemText className="nav-title">Plataformas</ListItemText>

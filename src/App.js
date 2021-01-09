@@ -23,6 +23,7 @@ const App = () => {
              <Route path="/game-discovery/mejores-juegos-del-ano-pasado" exact component={()=>  <ListPage action="BEST_LAST_YEAR" title="Los mejores juegos del año pasado"  /> } />
              <Route path="/game-discovery/juegos-para-playstation" exact component={()=>  <ListPage action="PS_GAMES" title="Encuentra tu nuevo juego para la Playstation"  /> } />
              <Route path="/game-discovery/juegos-para-xbox" exact component={()=>  <ListPage action="XBOX_GAMES" title="Encuentra tu nuevo juego para la Xbox"  /> } />
+             <Route path="/game-discovery/generos/:genres" exact component={(props)=>  <ListPage action="GENEROS" title={"Juegos de " + props.match.params.genres}  /> } />
  
             </Switch>
            <ListPage />

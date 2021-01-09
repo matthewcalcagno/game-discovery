@@ -34,6 +34,10 @@ export const getGames = (action) => {
         "/games/lists/greatest?year=2019&discover=true&platforms=4,18,187,186,7&ordering=-popularity&page_size=20&page=1";
       break;
 
+    case "GENEROS":
+      url = "/games?ordering=-popularity&genres=RPG&page=1&page_size=40&filter=true";
+      break;
+
     default:
       url =
         "/games/lists/recent-games-past?discover=true&platforms=4,18,187,186,7&ordering=-popularity&page=1&page_size=20";
