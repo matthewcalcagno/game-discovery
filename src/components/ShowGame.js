@@ -78,6 +78,7 @@ const ShowGame = (props) => {
           height: "700px",
           backgroundColor: "transparent",
           marginTop: "-49px",
+          backgroundRepeat: 'no-repeat',
           backgroundImage:
             "linear-gradient(rgba(15, 15, 15, 0), rgb(21, 21, 21)), linear-gradient(rgba(21, 21, 21, 0.8), rgba(21, 21, 21, 0.5)), url(" +
             background_image +
@@ -128,7 +129,7 @@ const ShowGame = (props) => {
       </div>
 
       <div style={{margin: '0 50px'}}>
-      <Grid item sm={12}>
+      <Grid item md={12}>
       {screenshots ? <Gallery screenshots={screenshots.results}/> : " "}
       </Grid>
       </div>
@@ -137,13 +138,13 @@ const ShowGame = (props) => {
 
      <br></br>
      <div style={{margin: '0 50px'}}>
-      <Grid  item sm={12}>
+      <Grid  item md={12}>
       {additions ? <Additions title="DLCs y Extras" bgColor="#451e70" additions={additions.results} /> : " "}
       </Grid>
-      <Grid  item sm={12}>
+      <Grid  item md={12}>
       {series ? <Additions title="Juegos relacionados" additions={series.results} /> : " "}
       </Grid>
-      <Grid  item sm={12}>
+      <Grid  item md={12}>
       {genres ? <GenreList title="Juegos relacionados" additions={genres} /> : " "}
       </Grid>
       </div>
