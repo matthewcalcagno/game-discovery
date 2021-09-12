@@ -127,12 +127,16 @@ const ShowGame = (props) => {
         </div>
       </div>
 
+      <div style={{margin: '0 50px'}}>
       <Grid item sm={12}>
       {screenshots ? <Gallery screenshots={screenshots.results}/> : " "}
       </Grid>
+      </div>
+      
      
 
      <br></br>
+     <div style={{margin: '0 50px'}}>
       <Grid  item sm={12}>
       {additions ? <Additions title="DLCs y Extras" bgColor="#451e70" additions={additions.results} /> : " "}
       </Grid>
@@ -142,6 +146,7 @@ const ShowGame = (props) => {
       <Grid  item sm={12}>
       {genres ? <GenreList title="Juegos relacionados" additions={genres} /> : " "}
       </Grid>
+      </div>
     </div>
   );
 };

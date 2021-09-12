@@ -137,3 +137,12 @@ a {
 [title^='Select'] {
     display: none
 }
+
+Button {
+    color: white !important
+}
+
+a:-webkit-any-link {
+  text-decoration: none;
+  color: inherit;
+}

@@ -40,7 +40,7 @@ const CardComponent = props => {
             image={image}
             title="Contemplative Reptile"
           />
-          <CardContent style={{backgroundColor: bgColor || " "}}>
+          <CardContent style={{backgroundColor: bgColor || " ", minHeight: '150px'}}>
             <div className="metacritic-card">{renderPlatforms(parent_platforms)}<span className={colorScore(metacritic)}>{metacritic}</span></div>
            <h2>{name}</h2>
           </CardContent>

@@ -24,13 +24,13 @@ const ListPage = (props) => {
   const { title } = props;
 
   return (
-    <div className="game-list" style={{ paddingTop: "2rem" }}>
+    <div className="game-list" style={{ paddingTop: "2rem", margin: '50px' }}>
       <h1>{title}</h1>
       <div style={{ display: "flex" }}>
         <Grid container>
           {results.map((game) => {
             return (
-              <Grid key={game.id} item sm={3}>
+              <Grid key={game.id} item xs={12} md={4} lg={2}>
                 <Card
                   name={game.name}
                   image={game.background_image}
