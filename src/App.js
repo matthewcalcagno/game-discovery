@@ -5,12 +5,14 @@ import ShowGame from "./components/ShowGame";
 import ListPage from "./components/ListPage";
 import Grid from "@material-ui/core/Grid";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
+import { AnimatePresence } from 'framer-motion';
 const App = () => {
   return (
     <div>
        <Nav />
       <Grid container spacing={1}>
         <Grid item xs={12} sm={12}>
+          <AnimatePresence>
           <Switch>
             <Route
               path="/game-discovery/juego/:slug"
@@ -87,6 +89,7 @@ const App = () => {
               )}
             />
           </Switch>
+          </AnimatePresence>
           <ListPage />
         </Grid>
       </Grid>

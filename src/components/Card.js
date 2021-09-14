@@ -8,6 +8,7 @@ import PsIcon from "../assets/imgs/playstation-icon-white.png"
 import XboxIcon from "../assets/imgs/xbox-icon-white.png"
 import PcIcon from  "../assets/imgs/pc-icon-white.png"
 import {Link} from "react-router-dom"
+import {motion} from 'framer-motion'
 
 const CardComponent = props => {
   const colorScore = (score) => {
@@ -34,6 +35,12 @@ const CardComponent = props => {
   }
     return (
       <Link to={"/game-discovery/juego/"+slug} >
+        <motion.div whileHover={{
+                  scale: 1.2,
+                  transition: {
+                    duration: .2
+                  }
+                }}>
         <Card className="card-item">
           <CardMedia
             className="card-media"
@@ -45,6 +52,7 @@ const CardComponent = props => {
            <h2>{name}</h2>
           </CardContent>
       </Card>
+      </motion.div>
       </Link>
     )
 }
