@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/game-discovery/static/css/main.79e758e3.chunk.css",
-    "main.js": "/game-discovery/static/js/main.6d1534d0.chunk.js",
-    "main.js.map": "/game-discovery/static/js/main.6d1534d0.chunk.js.map",
+    "main.js": "/game-discovery/static/js/main.24bab258.chunk.js",
+    "main.js.map": "/game-discovery/static/js/main.24bab258.chunk.js.map",
     "runtime-main.js": "/game-discovery/static/js/runtime-main.df28c516.js",
     "runtime-main.js.map": "/game-discovery/static/js/runtime-main.df28c516.js.map",
-    "static/js/2.251bc5a5.chunk.js": "/game-discovery/static/js/2.251bc5a5.chunk.js",
-    "static/js/2.251bc5a5.chunk.js.map": "/game-discovery/static/js/2.251bc5a5.chunk.js.map",
+    "static/js/2.bf27816f.chunk.js": "/game-discovery/static/js/2.bf27816f.chunk.js",
+    "static/js/2.bf27816f.chunk.js.map": "/game-discovery/static/js/2.bf27816f.chunk.js.map",
     "index.html": "/game-discovery/index.html",
     "static/css/main.79e758e3.chunk.css.map": "/game-discovery/static/css/main.79e758e3.chunk.css.map",
-    "static/js/2.251bc5a5.chunk.js.LICENSE.txt": "/game-discovery/static/js/2.251bc5a5.chunk.js.LICENSE.txt",
+    "static/js/2.bf27816f.chunk.js.LICENSE.txt": "/game-discovery/static/js/2.bf27816f.chunk.js.LICENSE.txt",
     "static/media/style.css": "/game-discovery/static/media/marmelat_medium-webfont.6bd12f51.woff2"
   },
   "entrypoints": [
     "static/js/runtime-main.df28c516.js",
-    "static/js/2.251bc5a5.chunk.js",
+    "static/js/2.bf27816f.chunk.js",
     "static/css/main.79e758e3.chunk.css",
-    "static/js/main.6d1534d0.chunk.js"
+    "static/js/main.24bab258.chunk.js"
   ]
 }
