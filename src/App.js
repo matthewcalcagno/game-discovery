@@ -9,7 +9,8 @@ import { AnimatePresence } from 'framer-motion';
 const App = () => {
   return (
     <div>
-      
+
+
        <Nav />
       <Grid container spacing={1}>
         <Grid item xs={12} sm={12}>
